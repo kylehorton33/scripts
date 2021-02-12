@@ -7,6 +7,6 @@ if [ "$MYFONTS" = '' ] || [ "$MYFONTS" = '[none]' ]; then
         ocrmypdf "$1" "$1"
         echo " "
 else
-    echo "Already OCR'ed skipping file: $1"
+    echo "Already OCR'ed. Skipping File: $1"
 echo " "
 fi
